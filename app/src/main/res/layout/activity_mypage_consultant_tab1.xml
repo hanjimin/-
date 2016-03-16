@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:focusableInTouchMode="true"
+    android:background="@color/bg_register"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp" android:layout_gravity="center">
+
+            <TextView
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textColorHint="@color/input_register_hint"
+                android:textColor="@color/input_register"
+                android:layout_marginTop="10dp" android:id="@+id/viewId"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textColorHint="@color/input_register_hint"
+                android:textColor="@color/input_register"
+                android:layout_marginTop="10dp" android:id="@+id/viewName"/>
+
+            <EditText
+                android:padding="10dp"
+                android:background="@drawable/spinner_background"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textColorHint="@color/input_register_hint"
+                android:textColor="@color/input_register"
+                android:layout_marginTop="10dp"
+                android:id="@+id/inputPassword"
+                android:inputType="textPassword"
+                android:singleLine="true" android:hint=" 기존 비밀번호"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="비밀번호를 입력하셔야 정보 변경이 가능합니다."/>
+
+            <EditText
+                android:padding="10dp"
+                android:background="@drawable/spinner_background"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textColorHint="@color/input_register_hint"
+                android:textColor="@color/input_register"
+                android:layout_marginTop="10dp"
+                android:id="@+id/inputNewPassword"
+                android:inputType="textPassword"
+                android:singleLine="true" android:hint=" 4~20자로 입력해주세요"/>
+
+            <EditText
+                android:padding="10dp"
+                android:background="@drawable/spinner_background"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textColorHint="@color/input_register_hint"
+                android:textColor="@color/input_register"
+                android:layout_marginTop="10dp"
+                android:id="@+id/inputNewPasswordCheck"
+                android:inputType="textPassword"
+                android:singleLine="true" android:hint=" 비밀번호 재입력"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:padding="10dp"
+                    android:background="@drawable/spinner_background"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:textColorHint="@color/input_register_hint"
+                    android:textColor="@color/input_register"
+                    android:id="@+id/inputPhone"
+                    android:singleLine="true"
+                    android:text=" 휴대폰"
+                    android:layout_gravity="center_vertical"/>
+                <Button
+                    android:padding="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:text="인증"
+                    android:textSize="13dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/btn_color_3"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/btn_change_phone"/>
+            </LinearLayout>
+
+            <EditText
+                android:padding="10dp"
+                android:background="@drawable/spinner_background"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textColorHint="@color/input_register_hint"
+                android:textColor="@color/input_register"
+                android:layout_marginTop="10dp"
+                android:id="@+id/inputEmail"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" android:hint=" 이메일"/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <Spinner
+                    android:background="@drawable/spinner_background"
+                    android:layout_height="30dp"
+                    android:layout_width="145dp"
+                    android:id="@+id/spinner_si"
+                    android:layout_marginRight="10dp"
+                    android:spinnerMode="dialog"/>
+
+                <Spinner
+                    android:background="@drawable/spinner_background"
+                    android:layout_height="30dp"
+                    android:layout_width="145dp"
+                    android:id="@+id/spinner_gu"
+                    android:spinnerMode="dialog"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="자기소개"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_background"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/edit_introduce"/>
+            </LinearLayout>
+
+            <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+
+                android:id="@+id/btnRegister"
+                android:text="등록"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="10dp"
+                android:background="@color/btn_color_3"
+                android:textColor="@color/white"
+                android:padding="5dp"/>
+
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_bg">#B2EBF4</color>
+    <color name="default_button">#66CDAA</color>
+    <color name="default_spinner">#FFFFFF</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="bg_main">#428bca</color>
+    <color name="grid_state_pressed">#BB561e14</color>
+    <color name="grid_state_focused">#77561e14</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#5e6266</color>
+    <color name="input_register_bg">#C4FDFF</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="mint">#28abab</color>
+    <color name="actionbar_text">#000099</color>
+    <color name="actionbar_header">#D5D5D5</color>
+    <color name="btn_color_1">#d95250</color>
+    <color name="btn_color_2">#118504</color>
+    <color name="btn_color_3">#337ab5</color>
+
+    <color name="red">#990000</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="orange">#FF9900</color>
+
+    <color name="sa_green">#14a804</color>
+    <color name="stacked_green">#118504</color>
+    <color name="accent_green">#97e08f</color>
+
+    <color name="actionbar_color">#487BE1</color>
+</resources>

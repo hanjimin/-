@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">우동사</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="find_id"><u>아이디 찾기</u></string>
+    <string name="find_passwd"><u>비밀번호 찾기</u></string>
+    <string name="comment_list"><u>보험진단 댓글 내역</u></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sub_activity1">SubActivity1</string>
+    <string name="title_activity_sub_activity2">SubActivity2</string>
+    <string name="title_activity_duenglokmojip">Duenglokmojip</string>
+    <string name="title_activity_games_fragment">GamesFragment</string>
+    <string name="title_activity_gogeckcenter">Gogeckcenter</string>
+    <string name="title_activity_movies_fragment">MoviesFragment</string>
+    <string name="title_activity_mypage">Mypage</string>
+    <string name="title_activity_mypage_consultant">Mypage_consultant</string>
+    <string name="title_activity_mypage_consultant_tab1">Mypage_consultant_tab1</string>
+    <string name="title_activity_mypage_consultant_tab2">Mypage_consultant_tab2</string>
+    <string name="title_activity_mypage_consultant_tab3">Mypage_consultant_tab3</string>
+    <string name="title_activity_mypage_consultant_tab4">Mypage_consultant_tab4</string>
+    <string name="title_activity_mypage_consultant_tab5">Mypage_consultant_tab5</string>
+    <string name="title_activity_mypage_tab1">Mypage_tab1</string>
+    <string name="title_activity_mypage_tab2">Mypage_tab2</string>
+    <string name="title_activity_mypage_tab3">Mypage_tab3</string>
+    <string name="title_activity_mypage_tab4">Mypage_tab4</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_sex_fragment">SexFragment</string>
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="title_activity_tab2">Tab2</string>
+    <string name="title_activity_tab3">Tab3</string>
+    <string name="title_activity_tab4">Tab4</string>
+    <string name="title_activity_tab5">Tab5</string>
+    <string name="title_activity_tab6">Tab6</string>
+    <string name="title_activity_tab7">Tab7</string>
+    <string name="title_activity_tab8">Tab8</string>
+    <string name="title_activity_tab9">Tab9</string>
+    <string name="title_activity_tab10">Tab10</string>
+    <string name="title_activity_tab11">Tab11</string>
+    <string name="title_activity_tab12">Tab12</string>
+    <string name="title_activity_tab13">Tab13</string>
+    <string name="title_activity_tab14">Tab14</string>
+    <string name="title_activity_tab15">Tab15</string>
+    <string name="title_activity_tab16">Tab16</string>
+    <string name="title_activity_top_rated_fragment">TopRatedFragment</string>
+    <string name="title_activity_view_page">ViewPage</string>
+    <string name="title_activity_mypage_tab5">Mypage_tab5</string>
+    <string name="title_activity_find_id">FindIDActivity</string>
+    <string name="title_activity_find_passwd">FindPasswdActivity</string>
+    <string name="title_activity_mypage_consultant_tab0">Mypage_consultant_tab0</string>
+    <string name="title_activity_mypage_tab0">Mypage_tab0</string>
+    <string name="corps_spinner_prompt">보험사 별로 보기</string>
+    <string name="title_activity_evaluation_main">Evaluation_main</string>
+    <string name="title_activity_evaluation__write_">Evaluation_Write_Activity</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_evaluation__content_">Evaluation_Content_Activity</string>
+    <string name="title_activity_evaluation__write__activity__fragment">
+        Evaluation_Write_Activity_Fragment
+    </string>
+    <string name="title_activity_show__consultant__comment__list">Show_Consultant_Comment_List
+    </string>
+
+    <string name="no_comment"><![CDATA[<font color="#0100FF">댓글이 없습니다 %1$s</font>]]></string>
+
+    <string name="select_address">지역선택</string>
+    <string name="title_activity_certificate__webview_">Certificate_Webview_Activity</string>
+    <string name="title_activity_login_go_button_activity">Login_go_button_activity</string>
+    <string name="title_activity_fullscreen_view_flipper">FullscreenViewFlipper</string>
+    <string name="title_activity_change__phone_num">Change_PhoneNum</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="title_activity_banner_fullscreen">Banner_fullscreen</string>
+    <string name="title_activity_select__service_">Select_Service_Activity</string>
+    <string name="title_activity_guide_">Guide_Activity</string>
+    <string name="title_activity_certificate__webview__consultant__activity4">
+        Certificate_Webview_Consultant_Activity
+    </string>
+    <string name="title_activity_register_activity__consultant">RegisterActivity_Consultant</string>
+    <string name="title_activity_change__phone_num__consultant">Change_PhoneNum_Consultant</string>
+    <string name="title_activity_change__phone_num__process">Change_PhoneNum_Process</string>
+</resources>

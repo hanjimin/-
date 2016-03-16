@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sec.woodongsa.RegisterActivity">
+    <item
+        android:id="@+id/login_logout"
+        android:title="로그인 화면"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/register_mypage"
+        android:title="회원가입"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/gogeckcenter"
+        android:title="고객센터"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/deunglok"
+        android:title="설계사 등록문의"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/evaluation"
+        android:title="보험평가받기"
+        app:showAsAction="never"
+        />
+</menu>

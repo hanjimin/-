@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/spinner_background">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/abc_btn_check_material"
+        android:scaleType="fitXY"
+        android:padding="3dp"
+        android:id="@+id/comment_imageview"
+        android:layout_centerVertical="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/comment_imageview"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이름"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                android:id="@+id/comment_co_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시"
+                android:textColor="@color/black"
+                android:layout_marginRight="5dp"
+                android:id="@+id/comment_co_si"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="구"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/material_blue_grey_800"
+                android:id="@+id/comment_co_gu"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시간"
+                android:textColor="@color/sa_green"
+                android:id="@+id/comment_date"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:textColor="@color/black"
+        android:id="@+id/comment_content"
+        android:textSize="15dp"
+        android:padding="2dp"
+        android:background="@drawable/spinner_background"
+        android:layout_below="@+id/comment_imageview"/>
+
+</RelativeLayout>

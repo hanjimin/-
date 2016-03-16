@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.sec.woodongsa.FindPasswdActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:text="비밀번호 찾기" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="회원가입 할 때 입력하신 이메일로 확인 가능합니다."
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_marginTop="20dp"
+                android:id="@+id/login_radio_layout">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/radio_group"
+                    >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="일반 회원"
+                        android:id="@+id/radio_user"
+                        android:textColor="#000000"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="설계사"
+                        android:id="@+id/radio_consultant"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="아이디"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint=" 아이디를 입력하세요"
+                android:id="@+id/find_passwd_id"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="휴대폰"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint=" '-'를 제외하고 입력해주세요"
+                android:id="@+id/find_passwd_phone"
+                android:inputType="date"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="비밀번호 찾기"
+                android:id="@+id/btn_find_passwd"
+                android:background="@color/btn_color_3"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+        </ScrollView>
+</LinearLayout>

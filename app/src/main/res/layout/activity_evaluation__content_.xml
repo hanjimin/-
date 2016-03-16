@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true">
+    <!--
+    android:focusable="true"
+    android:focusableInTouchMode="true" -->
+
+
+            <ListView
+                android:id="@+id/comment_list"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null"
+                android:layout_centerHorizontal="true"
+                android:cacheColorHint="#00000000"
+                android:listSelector="@android:color/transparent"
+                android:layout_above="@+id/comment_linear"
+                android:layout_margin="10dp"
+                android:choiceMode="none"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:longClickable="false"
+                android:background="@drawable/spinner_background"
+                >
+            </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/comment_linear"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:id="@+id/content_edit_comment"
+            android:background="@drawable/sub1_list_item_border"
+            android:ems="10"
+            android:paddingTop="14sp"
+            android:paddingBottom="14sp"
+            android:hint="댓글"
+            android:paddingLeft="5sp"
+            android:maxLines="3"
+            android:focusableInTouchMode="true"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@color/btn_color_3"
+            android:text="확인"
+            android:textColor="@color/white"
+            android:id="@+id/content_btn_comment"/>
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
+

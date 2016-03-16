@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sec.woodongsa" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:excludeFromRecents="true"
+        android:icon="@drawable/woodongsa_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:launchMode="singleTop"
+        android:taskAffinity=""
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoadingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/actionbar_color" >
+        </activity>
+        <activity
+            android:name=".SubActivity1"
+            android:label="@string/title_activity_sub_activity1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_No_Actionbar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SubActivity2"
+            android:label="@string/title_activity_sub_activity2"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SubActivity1" />
+        </activity>
+        <activity
+            android:name=".Duenglokmojip"
+            android:label="@string/title_activity_duenglokmojip"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".GamesFragment"
+            android:label="@string/title_activity_games_fragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Gogeckcenter"
+            android:label="@string/title_activity_gogeckcenter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:screenOrientation="portrait"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MoviesFragment"
+            android:label="@string/title_activity_movies_fragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_mypage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Mypage_consultant"
+            android:label="@string/title_activity_mypage_consultant"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".Mypage_consultant_tab1"
+            android:label="@string/title_activity_mypage_consultant_tab1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_consultant_tab2"
+            android:label="@string/title_activity_mypage_consultant_tab2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_consultant_tab3"
+            android:label="@string/title_activity_mypage_consultant_tab3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_consultant_tab4"
+            android:label="@string/title_activity_mypage_consultant_tab4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_consultant_tab5"
+            android:label="@string/title_activity_mypage_consultant_tab5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_tab1"
+            android:label="@string/title_activity_mypage_tab1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_tab2"
+            android:label="@string/title_activity_mypage_tab2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_tab3"
+            android:label="@string/title_activity_mypage_tab3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_tab4"
+            android:label="@string/title_activity_mypage_tab4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name=".SexFragment"
+            android:label="@string/title_activity_sex_fragment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".Tab1"
+            android:label="@string/title_activity_tab1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab2"
+            android:label="@string/title_activity_tab2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab3"
+            android:label="@string/title_activity_tab3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab4"
+            android:label="@string/title_activity_tab4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab5"
+            android:label="@string/title_activity_tab5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab6"
+            android:label="@string/title_activity_tab6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab7"
+            android:label="@string/title_activity_tab7"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab8"
+            android:label="@string/title_activity_tab8"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab9"
+            android:label="@string/title_activity_tab9"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab10"
+            android:label="@string/title_activity_tab10"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab11"
+            android:label="@string/title_activity_tab11"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab12"
+            android:label="@string/title_activity_tab12"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab13"
+            android:label="@string/title_activity_tab13"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab14"
+            android:label="@string/title_activity_tab14"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab15"
+            android:label="@string/title_activity_tab15"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tab16"
+            android:label="@string/title_activity_tab16"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TopRatedFragment"
+            android:label="@string/title_activity_top_rated_fragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ViewPage"
+            android:label="@string/title_activity_view_page"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".FindIDActivity"
+            android:label="@string/title_activity_find_id"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FindPasswdActivity"
+            android:label="@string/title_activity_find_passwd"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_consultant_tab0"
+            android:label="@string/title_activity_mypage_consultant_tab0"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mypage_tab0"
+            android:label="@string/title_activity_mypage_tab0"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Evaluation_main"
+            android:label="@string/title_activity_evaluation_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".evaluation.Evaluation_Content_Activity"
+            android:label="@string/title_activity_evaluation__content_"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".evaluation.Evaluation_Content_Activity" />
+        </activity>
+        <activity
+            android:name=".Show_Consultant_Comment_List"
+            android:label="@string/title_activity_show__consultant__comment__list"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SubActivity2" />
+        </activity>
+        <activity
+            android:name=".Certificate_Webview_Activity"
+            android:label="@string/title_activity_certificate__webview_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Login_go_button_activity"
+            android:label="@string/title_activity_login_go_button_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".evaluation.FullscreenViewFlipper"
+            android:label="@string/title_activity_fullscreen_view_flipper"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Change_PhoneNum"
+            android:label="@string/title_activity_change__phone_num"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Banner_fullscreen"
+            android:label="@string/title_activity_banner_fullscreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".Select_Service_Activity"
+            android:label="@string/title_activity_select__service_" >
+        </activity>
+        <activity
+            android:name=".Guide_Activity"
+            android:label="@string/title_activity_guide_" >
+        </activity>
+        <activity
+            android:name=".Certificate_Webview_Consultant_Activity4"
+            android:label="@string/title_activity_certificate__webview__consultant__activity4" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity_Consultant"
+            android:label="@string/title_activity_register_activity__consultant"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Light" >
+        </activity>
+        <activity
+            android:name=".Change_PhoneNum_Consultant"
+            android:label="@string/title_activity_change__phone_num__consultant" >
+        </activity>
+        <activity
+            android:name=".Change_PhoneNum_Process"
+            android:label="@string/title_activity_change__phone_num__process" >
+        </activity>
+    </application>
+
+</manifest>

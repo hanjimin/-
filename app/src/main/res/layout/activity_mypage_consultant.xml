@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mypage_consultant"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <TabWidget
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:id="@android:id/tabs"
+                android:orientation="horizontal"
+                android:background="#BDBDBD"
+                android:layout_weight="0"
+                />
+
+
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0"
+                />
+        </LinearLayout>
+    </TabHost>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mypage_consultant_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>
